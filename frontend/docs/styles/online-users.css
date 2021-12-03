@@ -1,0 +1,113 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+body {
+	background: #c5ddeb;
+	padding: 40px 0;
+	color: white;
+}
+
+.container {
+	margin: 0 auto;
+	width: 750px;
+	background: #444753;
+	border-radius: 5px;
+}
+
+.users-list {
+	display: inline-block;;
+	overflow: auto;
+	flex-flow: column wrap;
+	justify-content: space-between;
+	margin: 25px 0px;
+	height: calc(100% - 50px);
+	border: 2px solid #ddd;
+	border-radius: 5px;
+	background: #fff;
+	box-shadow: 0 15px 15px -5px rgba(0, 0, 0, 0.2);
+	height: 750px;
+	max-height: 750px;
+}
+
+.people-list {
+	width: 260px;
+	float: left;
+}
+
+.people-list .fa-search {
+	position: relative;
+	left: -25px;
+}
+
+.people-list ul {
+	padding: 20px;
+	list-style-type: none;
+}
+
+.people-list ul li {
+	padding-bottom: 20px;
+}
+
+.people-list img {
+	float: left;
+	border-radius: 50%;
+}
+
+.people-list .about {
+	padding-left: 14px;
+	float: left;
+	padding-top: 10px;
+	font-family: "Asap", sans-serif;
+    font-size: 12px;
+}
+
+.people-list .about .name {
+	font-family: "Asap", sans-serif;
+   	font-size: 17px;
+}
+
+.people-list .status {
+	color: #92959e;
+}
+
+.online, .offline, .me {
+	margin-right: 3px;
+	font-size: 10px;
+}
+
+.online {
+	color: #86bb71;
+}
+
+.offline {
+	color: #e38968;
+}
+
+.me {
+	color: #94c2ed;
+}
+
+.align-left {
+	text-align: left;
+}
+
+.align-right {
+	text-align: right;
+}
+
+.float-right {
+	float: right;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+ 

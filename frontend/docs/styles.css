@@ -1,0 +1,22 @@
+#loggedIn {
+  padding: 50px;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+.row {
+  width:1150px; 
+  margin:0 auto;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
